@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.verde{
+    background-color: rgb(54, 122, 45);
+    width: 36%;
+    height: 1000px;
+    float: left;
+}
+.rojo{
+    background-color: red;
+    width: 64%;
+    height: 1000px;
+    float: left;
+}
+.Escudo{
+    width: 580px;
+    height: 580px;
+    position: absolute;
+    margin-left: -283px;
+    margin-top: 185px;
+}
