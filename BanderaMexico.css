@@ -1,0 +1,35 @@
+
+body{
+  min-height: 100%;
+  font-size: 1.2rem;
+  background-color:  #fff;
+  margin: 0px;
+  padding: 0px;
+}
+.verde{
+    background-color: #006847;
+    width: 34%;
+    height: 1000px;
+    float: left;
+}
+.blanco{
+   
+    background-color: #fff;
+    width: 33%;
+    height: 1000px;
+    float: left;
+    text-align: center;
+    }
+.rojo{
+    
+    background-color: #CE1126;
+    width: 33%;
+    height: 1000px;
+    float: left;
+}
+html{
+    height: 100%;
+}
+.imagen{
+    margin-top: 110px;
+}
