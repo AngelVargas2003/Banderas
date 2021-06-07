@@ -1,16 +1,19 @@
 
 body{
-  min-height: 100%;
-  font-size: 1.2rem;
-  background-color:  #fff;
+background-color:  transparent;
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 .verde{
     background-color: #006847;
     width: 34%;
     height: 1000px;
     float: left;
+    filter: url("#turbulence");
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 .blanco{
    
@@ -19,6 +22,10 @@ body{
     height: 1000px;
     float: left;
     text-align: center;
+    filter: url("#turbulence");
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     }
 .rojo{
     
@@ -26,10 +33,17 @@ body{
     width: 33%;
     height: 1000px;
     float: left;
+    filter: url("#turbulence");
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 html{
     height: 100%;
 }
-.imagen{
+#imagen{
     margin-top: 110px;
+    margin-left: -590px;
+    position: absolute 
+    ;
 }
